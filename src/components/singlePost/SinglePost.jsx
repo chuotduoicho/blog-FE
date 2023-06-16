@@ -4,7 +4,7 @@ import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
 import { Context } from "../../context/Context";
 import "./singlePost.css";
-const URL = "https://ductai-blog.herokuapp.com/api";
+const URL = "https://ductai-blog-react-323c877a5194.herokuapp.com/api";
 export default function SinglePost() {
   const location = useLocation();
   const path = location.pathname.split("/")[2];
