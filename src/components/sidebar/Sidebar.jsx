@@ -41,18 +41,39 @@ export default function Sidebar() {
         <span className="sidebarTitle">FOLLOW US</span>
         <div className="sidebarSocial">
           <a href="https://www.facebook.com/duc.tai.12345/">
-            <i className="sidebarIcon fab fa-facebook-square"></i>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4628/4628653.png"
+              alt="logo"
+              className="icon"
+            />
           </a>
           <a href="https://twitter.com/vo1122000">
-            <i className="sidebarIcon fab fa-twitter-square"></i>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4628/4628695.png"
+              alt="logo"
+              className="icon"
+            />
           </a>
           <a href="https://pin.it/1Ieb9uE">
-            <i className="sidebarIcon fab fa-pinterest-square"></i>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4628/4628665.png"
+              alt="logo"
+              className="icon"
+            />
           </a>
           <a href="https://www.instagram.com/elnino.112/">
-            <i className="sidebarIcon fab fa-instagram-square"></i>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4628/4628656.png"
+              alt="logo"
+              className="icon"
+            />
           </a>
         </div>
+        <img
+          src="https://i.ibb.co/3R61Gmx/352785252-999730611193915-388522473267027213-n-1-removebg-preview.png"
+          alt="logo"
+          className="logo"
+        />
       </div>
     </div>
   );
