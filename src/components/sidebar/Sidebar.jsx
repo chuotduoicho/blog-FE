@@ -18,7 +18,7 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img
-          src="https://firebasestorage.googleapis.com/v0/b/ductai-blog-app.appspot.com/o/avatar.jpg?alt=media&token=f8c7462c-41d8-4246-a2e5-20daab608e6e"
+          src="https://firebasestorage.googleapis.com/v0/b/ductai-blog-a0d36.appspot.com/o/BAB70512-4250-4B36-B355-C39A7A6D6FE1.jpeg?alt=media&token=1c698294-4dcb-4f6f-b12a-5d35cafa713a"
           alt=""
         />
         <p>
@@ -38,7 +38,7 @@ export default function Sidebar() {
         </ul>
       </div>
       <div className="sidebarItem">
-        <span className="sidebarTitle">FOLLOW US</span>
+        <span className="sidebarTitle">FOLLOW ME</span>
         <div className="sidebarSocial">
           <a href="https://www.facebook.com/duc.tai.12345/">
             <img
