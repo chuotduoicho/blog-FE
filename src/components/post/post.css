@@ -7,6 +7,7 @@
   box-shadow: 0px 0px 17px -7px rgba(0, 0, 0, 0.75);
   transition: all 0.3s ease;
   animation: fadeIn 0.5s;
+  height: 500px;
 }
 
 .post:hover {

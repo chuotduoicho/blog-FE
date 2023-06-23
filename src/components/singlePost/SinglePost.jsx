@@ -46,10 +46,19 @@ export default function SinglePost() {
 
   return (
     <div className="singlePost">
+      {post.photo && (
+        <div className="singlePostImgBox">
+          <img
+            src={
+              post.photo ||
+              "https://t3.ftcdn.net/jpg/04/62/93/66/360_F_462936689_BpEEcxfgMuYPfTaIAOC1tCDurmsno7Sp.jpg"
+            }
+            alt=""
+            className="singlePostImg"
+          />{" "}
+        </div>
+      )}
       <div className="singlePostWrapper">
-        {post.photo && (
-          <img src={post.photo} alt="" className="singlePostImg" />
-        )}
         {updateMode ? (
           <input
             type="text"

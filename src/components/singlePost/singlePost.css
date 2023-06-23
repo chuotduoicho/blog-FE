@@ -1,5 +1,10 @@
 .singlePost {
   flex: 9;
+  display: flex;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin: 20px;
 }
 
 .singlePostWrapper {
@@ -9,9 +14,18 @@
   flex-direction: column;
 }
 
+.singlePostImgBox {
+  width: 100%;
+  height: fit-content;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 280px;
+}
+
 .singlePostImg {
   width: 100%;
-  height: 300px;
+  height: 500px;
   border-radius: 5px;
   object-fit: cover;
 }
