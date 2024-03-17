@@ -5,7 +5,7 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import "./home.css";
 import axios from "axios";
 import { useLocation } from "react-router";
-const URL = "https://ductai-blog-react-323c877a5194.herokuapp.com/api";
+const URL = "https://blog-api-cq03.onrender.com/api";
 export default function Home() {
   const [posts, setPosts] = useState([]);
   const { search } = useLocation();

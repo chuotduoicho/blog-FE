@@ -4,7 +4,7 @@ import { useContext, useState } from "react";
 import { Context } from "../../context/Context";
 import axios from "axios";
 import FileBase64 from "react-file-base64";
-const URL = "https://ductai-blog-react-323c877a5194.herokuapp.com/api";
+const URL = "https://blog-api-cq03.onrender.com/api";
 export default function Settings() {
   const [photo, setPhoto] = useState("");
   const [username, setUsername] = useState("");

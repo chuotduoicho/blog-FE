@@ -5,7 +5,7 @@ import { storage } from "../../firebase";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import axios from "axios";
 import { Context } from "../../context/Context";
-const URL = "https://ductai-blog-react-323c877a5194.herokuapp.com/api";
+const URL = "https://blog-api-cq03.onrender.com/api";
 export default function Write() {
   const [title, setTitle] = useState("none");
   const [desc, setDesc] = useState("");

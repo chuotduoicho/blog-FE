@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./sidebar.css";
-const URL = "https://ductai-blog-react-323c877a5194.herokuapp.com/api";
+const URL = "https://blog-api-cq03.onrender.com/api";
 export default function Sidebar() {
   const [cats, setCats] = useState([]);
 
