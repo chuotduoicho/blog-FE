@@ -1,6 +1,5 @@
 import { useContext, useState } from "react";
 import "./write.css";
-import FileBase64 from "react-file-base64";
 import { storage } from "../../firebase";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import axios from "axios";
@@ -9,7 +8,7 @@ const URL = "https://blog-api-cq03.onrender.com/api";
 export default function Write() {
   const [title, setTitle] = useState("none");
   const [desc, setDesc] = useState("");
-  const [photo, setPhoto] = useState(null);
+  // const [photo, setPhoto] = useState(null);
   const { user } = useContext(Context);
   const [image, setImage] = useState(null);
   const [url, setUrl] = useState(null);
@@ -27,7 +26,7 @@ export default function Write() {
         getDownloadURL(imageRef)
           .then((url) => {
             setUrl(url);
-            setPhoto(url);
+            // setPhoto(url);
             console.log(url);
             const newPost = {
               username: user.username,
