@@ -10,8 +10,8 @@ export default function Post({ post }) {
         )}
         <div className="postInfo">
           <div className="postCats">
-            {post.categories.map((c) => (
-              <span className="postCat" key={c._id}>
+            {post.categories.map((c, index) => (
+              <span className="postCat" key={`postCat-${index}`}>
                 {c.name}
               </span>
             ))}

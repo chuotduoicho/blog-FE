@@ -69,11 +69,7 @@ export default function Sidebar() {
             />
           </a>
         </div>
-        <img
-          src="https://i.ibb.co/3R61Gmx/352785252-999730611193915-388522473267027213-n-1-removebg-preview.png"
-          alt="logo"
-          className="logo"
-        />
+        <img src="/assets/logo-blog.png" alt="logo" className="logo" />
       </div>
     </div>
   );
