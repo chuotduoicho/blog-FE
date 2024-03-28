@@ -16,9 +16,23 @@
   flex: 3;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: row;
   gap: 10px;
+  padding: 0 5%;
+}
+
+.topLeft {
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .topLeft a:not(:first-child) {
+    display: none;
+  }
+}
+
+.topRight {
+  justify-content: flex-end;
 }
 
 .topCenter {
