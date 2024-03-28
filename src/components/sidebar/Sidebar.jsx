@@ -21,11 +21,7 @@ export default function Sidebar() {
           src="https://firebasestorage.googleapis.com/v0/b/ductai-blog-a0d36.appspot.com/o/BAB70512-4250-4B36-B355-C39A7A6D6FE1.jpeg?alt=media&token=1c698294-4dcb-4f6f-b12a-5d35cafa713a"
           alt=""
         />
-        <p>
-          I am an ordinary person who loves beauty and peace. Sports are my
-          passion. Can you invite me out for a drink? Nice to have you visit my
-          blog!!! 😘
-        </p>
+        <p>Welcome to my blog. My name is Tai. I am a software engineer 💖</p>
       </div>
       <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>
@@ -69,7 +65,6 @@ export default function Sidebar() {
             />
           </a>
         </div>
-        <img src="/assets/logo-blog.png" alt="logo" className="logo" />
       </div>
     </div>
   );
